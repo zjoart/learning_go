@@ -1,1 +1,21 @@
-hello
+In this project i covered the following basics of golang
+
+- Variables in GO
+- MULTIPLE DECLARATIONS
+- Varaibles and Declarations
+- Types and Zeros Values
+- Comments
+- Naming Conventions
+- Package fmt
+- Constants in GO
+- Constant Rules
+- Constants Expression. Typed and Untyped
+- IOTA
+- Go Data Types
+- Operations on Types_Arithmetic and Assignment Operators
+- Comparison and Logical Operators
+- Overflows
+- Converting Numeric Types
+- Converting Numbers to Strings and Strings to Number
+- Defined(Named) Types
+- Alias Declarations
