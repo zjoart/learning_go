@@ -71,8 +71,8 @@ func main() {
 	//iota
 	const (
 		c1 = iota
-		c2 = iota
-		c3 = iota
+		c2
+		c3
 		c4
 		c5
 	)
