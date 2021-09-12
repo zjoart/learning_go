@@ -51,10 +51,11 @@ func main() {
 	}
 	fmt.Println(strings.Repeat("*", 25))
 	//multi directional arrays
-	bals := [2][3]int{
-		{5, 6, 7}, {8, 9, 3},
+	bals := [2][3][3]int{
+		{{5}, {6}, {7}}, {{8}, {9}, {3}},
 	}
 	fmt.Println(bals)
+	fmt.Println(bals[0][1])
 	fmt.Println(strings.Repeat("*", 25))
 
 	//Arrays with Keyed Elements

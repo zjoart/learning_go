@@ -8,3 +8,6 @@ I started learning Golang Programming language and this is a repository dedicate
 
 - Arrays [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Arrays)
 
+- Slices [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Slices)
+
+
