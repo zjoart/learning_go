@@ -10,4 +10,6 @@ I started learning Golang Programming language and this is a repository dedicate
 
 - Slices [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Slices)
 
+- Maps [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Maps)
+
 
