@@ -12,4 +12,8 @@ I started learning Golang Programming language and this is a repository dedicate
 
 - Maps [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Maps)
 
+- Working with Files [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Files)
+
+- Structs [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Structs)
+
 
