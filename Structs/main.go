@@ -19,6 +19,11 @@ func main() {
 
 	fmt.Println(newCar)
 
+	//comparing structs
+	// using == and !=
+
+	fmt.Println("New and Scar are same:", newCar == snewCar)
+
 	type SecondCar struct {
 		year  int
 		maker string
@@ -34,11 +39,6 @@ func main() {
 	fmt.Println(secondCar.year) //retrieving
 	secondCar.year = 2000       //updating
 	fmt.Println(secondCar.year) //retrieving back
-
-	//comparing structs
-	// using == and !=
-
-	fmt.Println(newCar == snewCar)
 
 	//	Anonymous Structs and Anonymous Struct Fields
 
