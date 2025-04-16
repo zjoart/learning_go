@@ -21,10 +21,10 @@ func f1(a ...int) {
 	fmt.Println(a)
 }
 
-func personInfromation(age int, names ...string) string {
+func personInfromation(age int, names ...string) (string, int) {
 	fullName := strings.Join(names, " ")
 
-	return fullName
+	return fullName, age
 }
 
 //Defer Statement
@@ -46,8 +46,8 @@ func main() {
 	f1(1, 3, 4, 5, 5, 5)
 	f1()
 
-	person := personInfromation(10, "Ayomide", "Joshua", "Lade", "obi")
-	fmt.Println(person)
+	person, age := personInfromation(10, "Ayomide", "Joshua", "Lade", "obi")
+	fmt.Printf("Personals are: %s, Age is %d \n", person, age)
 
 	defer bar()
 	foo()
