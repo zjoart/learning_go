@@ -1,3 +1,3 @@
 module mytutorialprojects/basics_learning
 
-go 1.17
+go 1.18

@@ -92,6 +92,13 @@ func main() {
 	_ = numbers
 	var cities = []string{"London", "Kenya", "Abeokta"} // Slice type
 	_ = cities
+
+	var dynamicArray = [3]any{1, "", 4.5}
+	_ = dynamicArray
+
+	var dynamicSlice = []any{1, "", 4.5, map[string]int{}}
+	_ = dynamicSlice
+
 	fmt.Printf("cities: %v\n", cities)
 
 	balances := map[string]float64{
