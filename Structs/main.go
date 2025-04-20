@@ -4,18 +4,33 @@ import (
 	"fmt"
 )
 
+type Car struct {
+	year  int
+	maker string
+	model string
+	speed int
+}
+
+func (c *Car) Sing() string {
+
+	return c.maker
+}
+
+type TestInterface interface {
+	Sing() string
+}
+
 func main() {
 	fmt.Println("Structs in Golang")
 
-	type Car struct {
-		year  int
-		maker string
-		model string
-		speed int
-	}
+	var d TestInterface
 
 	newCar := Car{2000, "Toyota", "Camry", 230}
 	snewCar := Car{2000, "Toyota", "Camry", 230}
+
+	d = &newCar
+
+	d.Sing()
 
 	fmt.Println(newCar)
 
