@@ -18,4 +18,8 @@ I started learning Golang Programming language and this is a repository dedicate
 
 - Functions [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Functions)
 
+- Generics [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/Generics)
+
+- Concurrency [here](https://github.com/zjoart/my_golang_learning_documentation/tree/Develop/concurrency)
+
 
